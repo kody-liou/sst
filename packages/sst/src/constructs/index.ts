@@ -29,4 +29,5 @@ export * from "./util/duration.js";
 export * from "./util/permission.js";
 export * as Config from "./Config.js";
 export * as Metadata from "./Metadata.js";
+export * as cdk from 'aws-cdk-lib';
 export { use, dependsOn, getStack, StackContext } from "./FunctionalStack.js";
